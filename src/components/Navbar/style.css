@@ -1,0 +1,17 @@
+.active {
+    background-color: rgb(164, 255, 59);
+    
+}
+
+a {
+    color: black;
+}
+
+/* .nav-item {
+    background-color: yellow
+} */
+
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+    
+  }
