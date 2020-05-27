@@ -4,7 +4,9 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <img src="./assets/logo_2.png"
+        />
       <NavLink to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
         Home
       </NavLink>

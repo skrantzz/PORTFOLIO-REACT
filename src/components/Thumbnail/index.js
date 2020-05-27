@@ -2,18 +2,17 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import "./style.css";
 
-function Thumbnail() {
+function Thumbnail(props) {
     return (
         <div className="project">
-            <Link to="">
+                <div className="project-title">{props.title}</div>
+            <Link to={props.link}>
                 <div className="project-image">
-                    <img src="" alt="Project"/>
+                    <img src={props.image} alt="Project"/>
                 </div>
-                <div className="project-title">""</div>
-                <div className="project-category">""</div>
             </Link>
         </div>
     )
+    
 }
-
 export default Thumbnail;
