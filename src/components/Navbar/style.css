@@ -1,4 +1,4 @@
-.active {
+.active1 {
     background-color: rgb(255, 59, 59);
     
 }
@@ -14,4 +14,8 @@ a {
 nav.navbar.navbar-default {
     margin-bottom: 0;
     
+  }
+
+  .logo {
+      width: 10rem
   }

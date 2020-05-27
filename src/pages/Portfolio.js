@@ -2,20 +2,23 @@
 import React from "react";
 import Thumbnail from "../components/Thumbnail";
 import "../App.css";
+import projectData from "../utils/projects.json"
 
 // import hero, nav, footer etc.
 function Portfolio() {
   return (
     <>
-      <div className="row">
-        <div className="col-md-3">
+    <div className='container'>
+      <div className="row mt-4">
+        {projectData.map(a=> <div className="col-md-3 mt-3 mb-3">
             <Thumbnail
-              link=""
-              image="./assets/planner.png"
-              title="Daily Planner"
+              link={a.link}
+              image={a.image}
+              title={a.title}
             />
-        </div>
-        <div className="col-md-3">
+        </div>)}
+       
+        {/* <div className="col-md-3">
 
             <Thumbnail link="" image="./assets/brewlove.png" title="Brewlove" />
           </div>
@@ -35,8 +38,6 @@ function Portfolio() {
               title="Password Generator"
             />
           </div>
-        </div>
-      <div className="row">
         <div className="col-md-3">
 
             <Thumbnail
@@ -68,8 +69,9 @@ function Portfolio() {
               image="./assets/empdir.png"
               title="Employee Directory"
             />
+          </div>*/}
+          </div> 
           </div>
-      </div>
     </>
   );
 }
