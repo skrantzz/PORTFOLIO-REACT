@@ -4,8 +4,8 @@ import "./style.css";
 
 function Thumbnail(props) {
     return (
-            <div className="card border-danger mb-3 align-items-center">
-      <div className="card-body hvr-ripple-in hvr-wobble-skew">
+            <div className="card mb-3 align-items-center">
+      <div className="card-body hvr-outline-out">
                 <div className="project-title">{props.title}</div>
             <Link to={props.link}>
                 <div className="project-image">

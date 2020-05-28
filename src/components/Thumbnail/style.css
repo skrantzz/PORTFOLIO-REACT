@@ -1,23 +1,105 @@
-
 .project-title {
-    text-align: center;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
 }
 
 .project-image img {
-    width:80%;
+  width: 80%;
 }
 
 .project-image {
-    text-align: center;
+  text-align: center;
 }
 
 .card {
-    display: flex;
-    width: 100%;
-    border-radius:6%;
-    box-shadow: 3px 6px 6px 1px hotpink;
+  display: flex;
+  width: 100%;
+  border: 0px;
+  /* box-shadow: 3px 6px 6px 1px hotpink; */
 }
 
+/* Outline Out */
+.hvr-outline-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-outline-out:before {
+  content: "";
+  position: absolute;
+  border: white solid 4px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-out:hover:before,
+.hvr-outline-out:focus:before,
+.hvr-outline-out:active:before {
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+}
 
+/* Outline In */
+.hvr-outline-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-outline-in:before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  border: white solid 4px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-in:hover:before,
+.hvr-outline-in:focus:before,
+.hvr-outline-in:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
+}
 
-
+/* Skew */
+.hvr-skew {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-skew:hover,
+.hvr-skew:focus,
+.hvr-skew:active {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}

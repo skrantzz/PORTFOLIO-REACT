@@ -17,59 +17,6 @@ function Portfolio() {
               title={a.title}
             />
         </div>)}
-       
-        {/* <div className="col-md-3">
-
-            <Thumbnail link="" image="./assets/brewlove.png" title="Brewlove" />
-          </div>
-        <div className="col-md-3">
-
-            <Thumbnail
-              link=""
-              image="./assets/bookclub.png"
-              title="Book Club"
-            />
-        </div>
-        <div className="col-md-3">
-
-            <Thumbnail
-              link=""
-              image="./assets/pwdgen.png"
-              title="Password Generator"
-            />
-          </div>
-        <div className="col-md-3">
-
-            <Thumbnail
-              link=""
-              image="./assets/weather.png"
-              title="Weather Dashboard"
-            />
-          </div>
-        <div className="col-md-3">
-
-            <Thumbnail
-              link=""
-              image="./assets/codingquiz.png"
-              title="Coding Quiz"
-            />
-          </div>
-        <div className="col-md-3">
-
-            <Thumbnail
-              link=""
-              image="./assets/notetaker.png"
-              title="Note Taker"
-            />
-          </div>
-        <div className="col-md-3">
-
-            <Thumbnail
-              link=""
-              image="./assets/empdir.png"
-              title="Employee Directory"
-            />
-          </div>*/}
           </div> 
           </div>
     </>

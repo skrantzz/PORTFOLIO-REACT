@@ -6,37 +6,37 @@
     },
     {
         "link":"",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
+        "image":"./assets/brewlove.png",
+        "title":"Brew Love"
     },
     {
         "link":"",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
+        "image":"./assets/bookclub.png",
+        "title":"QT Book Club"
     },
     {
         "link":"",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
+        "image":"./assets/pwdgen.png",
+        "title":"Password Generator"
     },
     {
         "link":"",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
+        "image":"./assets/weather.png",
+        "title":"Weather Dashboard"
     },
     {
         "link":"",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
+        "image":"./assets/codingquiz.png",
+        "title":"Coding Quiz"
     },
     {
         "link":"",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
+        "image":"./assets/notetaker.png",
+        "title":"Note Taker"
     },
     {
         "link":"",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
+        "image":"./assets/empdir.png",
+        "title":"Employee Directory"
     }
 ]
