@@ -15,6 +15,7 @@ function Portfolio() {
               link={a.link}
               image={a.image}
               title={a.title}
+              onClick={a.link}
             />
         </div>)}
           </div> 
