@@ -12,7 +12,7 @@ function Thumbnail(props) {
                     <img src={props.image} alt="Project"/>
                 </div>
             </a>
-            {console.log(props.link)}
+            {console.log()}
         </div></div>
     )
     
