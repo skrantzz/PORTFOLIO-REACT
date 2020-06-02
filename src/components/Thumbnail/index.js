@@ -3,19 +3,16 @@ import React from "react";
 import "./style.css";
 
 function Thumbnail(props) {
-    return (
-            <div className="card mb-3 align-items-center">
-      <div className="card-body hvr-outline-out">
-                <div className="project-title">{props.title}</div>
-            <a href={props.link}>
-                <div className="project-image">
-                    <img src={props.image} alt="Project"/>
-                </div>
-            </a>
-            {console.log()}
-        </div></div>
-    )
-    
+  return (
+  <a href={props.link}>
+    <div className="card mb-3 align-items-center">
+        <div className="card-body hvr-outline-out">
+          <div className="project-title">{props.title}</div>
+          <div className="project-image">
+            <img src={props.image} alt="Project" />
+          </div>
+        </div>{" "}
+    </div></a>
+  );
 }
 export default Thumbnail;
-
