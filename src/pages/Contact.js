@@ -1,10 +1,11 @@
 import React from "react";
 // import hero, nav, footer etc. 
+
 function Contact() {
     return (
       
         <div className="container">
-         <form id="contact-form" method="POST">
+         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
     <div className="form-group">
         <label htmlFor="name">Name</label>
         <input type="text" className="form-control" />
