@@ -7,6 +7,8 @@
 
 .project-image img {
   width: 80%;
+  height: 100%;
+  border: 1px rgb(235, 72, 213) dashed
 }
 
 .project-image {

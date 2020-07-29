@@ -1,13 +1,13 @@
 [
     {
+        "link":"https://planthood.herokuapp.com/",
+        "image":"./assets/planthood.png",
+        "title":"Planthood"
+    },
+    {
         "link":"https://skrantzz.github.io/02_04_HW/",
         "image":"./assets/planner.png",
         "title":"Daily Planner"
-    },
-    {
-        "link":"https://brew-app.github.io/BREWLOVE-APP/",
-        "image":"./assets/brewlove.png",
-        "title":"BREWLOVE"
     },
     {
         "link":"https://protected-sierra-06049.herokuapp.com/",
@@ -15,14 +15,14 @@
         "title":"QT Book Club"
     },
     {
+        "link":"https://brew-app.github.io/BREWLOVE-APP/",
+        "image":"./assets/brewlove.png",
+        "title":"BREWLOVE"
+    },
+    {
         "link":"https://skrantzz.github.io/01_18_HW/",
         "image":"./assets/pwdgen.png",
         "title":"Password Generator"
-    },
-    {
-        "link":"https://planthood.herokuapp.com/",
-        "image":"./assets/planthood.png",
-        "title":"Planthood"
     },
     {
         "link":"https://skrantzz.github.io/01_27_HW/",
