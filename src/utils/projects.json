@@ -7,7 +7,7 @@
     {
         "link":"https://brew-app.github.io/BREWLOVE-APP/",
         "image":"./assets/brewlove.png",
-        "title":"Brew Love"
+        "title":"BREWLOVE"
     },
     {
         "link":"https://protected-sierra-06049.herokuapp.com/",
@@ -20,9 +20,9 @@
         "title":"Password Generator"
     },
     {
-        "link":"https://skrantzz.github.io/02_10_WeatherDash/",
-        "image":"./assets/weather.png",
-        "title":"Weather Dashboard"
+        "link":"https://planthood.herokuapp.com/",
+        "image":"./assets/planthood.png",
+        "title":"Planthood"
     },
     {
         "link":"https://skrantzz.github.io/01_27_HW/",
