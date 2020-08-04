@@ -5,7 +5,10 @@ function Contact() {
     return (
       
         <div className="container">
-         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+            <h2>SAY HI</h2>
+            sydney@skrantz.com
+            </div>
+         /* <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
     <div className="form-group">
         <label htmlFor="name">Name</label>
         <input type="text" className="form-control" />
@@ -20,7 +23,7 @@ function Contact() {
     </div>
     <button type="submit" className="btn btn-primary">Submit</button>
 </form>
-        </div>
+        </div> */
       
     );
   }

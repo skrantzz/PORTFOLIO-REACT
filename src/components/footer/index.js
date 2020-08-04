@@ -16,7 +16,7 @@ function Footer() {
                   <a href="https://www.instagram.com/seeeyudddd/">IG</a>|
                   <a href="skrantz.com">Photo</a>
                   <br/><br/>
-                  <img className="logo" src={logo}/>
+                  <img className="footerLogo" src={logo}/>
                 </div>
               </div>
            

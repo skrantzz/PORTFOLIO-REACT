@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3vw;
+  text-align: right;
+}
+
+.techStack {
+  text-align: right;
+  border: 1px black solid;
+  margin-top: 3vw;
+}

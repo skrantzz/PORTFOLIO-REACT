@@ -6,7 +6,9 @@ function Navbar() {
   const [active, setActive] = useState(1);
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top align-items-right"> 
-    <img className="logo" src="./assets/logo_2.png" alt="logo" />
+  
+    <h2 className='logo'>SYDNEY KRANTZ</h2>
+  
       <ul className="navbar-nav">
         <li className="nav-item">
          

@@ -8,7 +8,11 @@ import projectData from "../utils/projects.json"
 function Portfolio() {
   return (
     <>
-    <div className='container'>
+    <div className='container techStack'>
+      <h2>TECH STACK:</h2>
+      MongoDB, Express.js, React, Node, MySQL, HTML/CSS, JavaScript, Material UI, Git, Heroku
+      </div>
+      <div className='container'>
       <div className="row mt-4">
         {projectData.map(a=> <div className="col-md-3 mt-3 mb-3">
             <Thumbnail
