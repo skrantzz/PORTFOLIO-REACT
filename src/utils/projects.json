@@ -1,42 +1,42 @@
 [
-    {
-        "link":"https://planthood.herokuapp.com/",
-        "image":"./assets/planthood.png",
-        "title":"Planthood"
-    },
-    {
-        "link":"https://skrantzz.github.io/02_04_HW/",
-        "image":"./assets/planner.png",
-        "title":"Daily Planner"
-    },
-    {
-        "link":"https://protected-sierra-06049.herokuapp.com/",
-        "image":"./assets/bookclub.png",
-        "title":"QT Book Club"
-    },
-    {
-        "link":"https://brew-app.github.io/BREWLOVE-APP/",
-        "image":"./assets/brewlove.png",
-        "title":"BREWLOVE"
-    },
-    {
-        "link":"https://skrantzz.github.io/01_18_HW/",
-        "image":"./assets/pwdgen.png",
-        "title":"Password Generator"
-    },
-    {
-        "link":"https://skrantzz.github.io/01_27_HW/",
-        "image":"./assets/codingquiz.png",
-        "title":"Coding Quiz"
-    },
-    {
-        "link":"https://quiet-stream-23211.herokuapp.com/",
-        "image":"./assets/notetaker.png",
-        "title":"Note Taker"
-    },
-    {
-        "link":"https://unicorn-springs.herokuapp.com/",
-        "image":"./assets/empdir.png",
-        "title":"Employee Directory"
-    }
+  {
+    "link": "https://planthood.herokuapp.com/",
+    "image": "./assets/planthood.png",
+    "title": "Planthood"
+  },
+  {
+    "link": "https://skrantzz.github.io/02_04_HW/",
+    "image": "./assets/planner.png",
+    "title": "Daily Planner"
+  },
+  {
+    "link": "https://protected-sierra-06049.herokuapp.com/",
+    "image": "./assets/bookclub.png",
+    "title": "QT Book Club"
+  },
+  {
+    "link": "https://brew-app.github.io/BREWLOVE-APP/",
+    "image": "./assets/brewlove.png",
+    "title": "BREWLOVE"
+  },
+  {
+    "link": "https://skrantzz.github.io/01_18_HW/",
+    "image": "./assets/pwdgen.png",
+    "title": "Password Generator"
+  },
+  {
+    "link": "https://skrantzz.github.io/01_27_HW/",
+    "image": "./assets/codingquiz.png",
+    "title": "Coding Quiz"
+  },
+  {
+    "link": "https://quiet-stream-23211.herokuapp.com/",
+    "image": "./assets/notetaker.png",
+    "title": "Note Taker"
+  },
+  {
+    "link": "https://unicorn-springs.herokuapp.com/",
+    "image": "./assets/empdir.png",
+    "title": "Employee Directory"
+  }
 ]
