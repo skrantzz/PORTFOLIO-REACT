@@ -1,11 +1,11 @@
 .footer {
-   font: 10vw;
-   margin-top: 5vw;
+  font: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  width: 100%;
 }
 
-
-
 .footerLogo {
-    border-radius: 50%;
-    width: 100px;
+  border-radius: 50%;
+  width: 100px;
 }

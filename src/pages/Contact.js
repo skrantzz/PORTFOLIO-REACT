@@ -1,16 +1,17 @@
 import React from "react";
-import axios from 'axios';
-// import hero, nav, footer etc. 
+// import axios from 'axios';
+// import hero, nav, footer etc.
 
-export default function Contact () {
+export default function Contact() {
   return (
     <div className="container contact">
-    <br/>
-    <h1>i love mail! say hi:  
-            <a href="mailto:sydney@skrantz.com">hi@skrantz.com</a>
-            </h1>
+      <br />
+      <h1>
+        i love mail! say hi:
+        <a href="mailto:sydney@skrantz.com">hi@skrantz.com</a>
+      </h1>
     </div>
-    )
+  );
 }
 // class Contact extends React.Component {
 //     constructor(props) {
@@ -28,16 +29,16 @@ export default function Contact () {
 //         const email = document.getElementById('email').value;
 //         const message = document.getElementById('message').value;
 //         axios({
-//             method: "POST", 
-//             url:"http://localhost:3002/send", 
+//             method: "POST",
+//             url:"http://localhost:3002/send",
 //             data: {
-//                 name: name,   
-//                 email: email,  
+//                 name: name,
+//                 email: email,
 //                 messsage: message
 //             }
 //         }).then((response)=>{
 //             if (response.data.msg === 'success'){
-//                 alert("Message Sent."); 
+//                 alert("Message Sent.");
 //                 this.resetForm()
 //             }else if(response.data.msg === 'fail'){
 //                 alert("Message failed to send.")
@@ -48,7 +49,7 @@ export default function Contact () {
 //     resetForm(){
 //         document.getElementById('contact-form').reset();
 //     }
-  
+
 //   render() {
 //    return(
 //      <div className="App">
@@ -70,21 +71,21 @@ export default function Contact () {
 //       </div>
 //    );
 //   }
-  
+
 //     onNameChange(event) {
 //       this.setState({name: event.target.value})
 //     }
-  
+
 //     onEmailChange(event) {
 //       this.setState({email: event.target.value})
 //     }
-  
+
 //     onMessageChange(event) {
 //       this.setState({message: event.target.value})
 //     }
-  
+
 //   handleSubmit(event) {
 //   }
 //   }
-  
+
 //   export default Contact;
